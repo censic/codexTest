@@ -23,6 +23,7 @@ spec.loader.exec_module(core)
 _original_get_json = core.get_json
 _original_base_params = core.base_params
 _original_render_report = core.render_report
+_original_summarize_segments = core.summarize_segments
 _suppressed_errors: list[str] = []
 
 
@@ -61,6 +62,61 @@ def get_json(endpoint: str, params: dict[str, Any], api_key: str, retries: int =
         }
 
 
+def summarize_segments(segments: list[dict[str, Any]]) -> dict[str, Any]:
+    """Preserve the exact segment identifiers needed for checkout re-pricing."""
+    summary = _original_summarize_segments(segments)
+    selected: list[dict[str, str]] = []
+    for segment in segments:
+        departure = segment.get("departure_airport") or {}
+        arrival = segment.get("arrival_airport") or {}
+        flight_number = str(segment.get("flight_number") or "").replace(" ", "")
+        departure_id = str(departure.get("id") or "")
+        arrival_id = str(arrival.get("id") or "")
+        departure_time = str(departure.get("time") or "")
+        if flight_number and departure_id and arrival_id and len(departure_time) >= 10:
+            selected.append(
+                {
+                    "flight_number": flight_number,
+                    "departure_id": departure_id,
+                    "arrival_id": arrival_id,
+                    "date": departure_time[:10],
+                }
+            )
+    summary["selected_segments"] = selected
+    return summary
+
+
+def verify_booking(candidate: dict[str, Any], api_key: str, config: dict[str, Any]) -> dict[str, Any]:
+    """Re-price an exact itinerary using SerpApi's selected_flights_json method."""
+    outbound = candidate.get("outbound", {}).get("selected_segments", [])
+    returning = candidate.get("return", {}).get("selected_segments", [])
+    if not outbound or not returning:
+        return candidate
+    selected = json.dumps({"outbound": outbound, "return": returning}, separators=(",", ":"))
+    payload = get_json(
+        core.SERP_ENDPOINT,
+        {
+            "engine": "google_flights",
+            "selected_flights_json": selected,
+            "currency": config["currency"],
+            "hl": config["locale"],
+            "gl": config["country"],
+        },
+        api_key,
+    )
+    options = payload.get("booking_options", [])
+    parsed = [core.booking_price(option) for option in options if isinstance(option, dict)]
+    parsed = [(price, seller) for price, seller in parsed if price is not None]
+    if parsed:
+        price, seller = min(parsed, key=lambda pair: float(pair[0]))
+        candidate["booking_verified"] = True
+        candidate["verified_price"] = price
+        candidate["book_with"] = seller
+        metadata = payload.get("search_metadata", {}) if isinstance(payload.get("search_metadata"), dict) else {}
+        candidate["booking_verified_at"] = metadata.get("created_at") or core.utc_now()
+    return candidate
+
+
 def render_report(payload: dict[str, Any]) -> str:
     report = _original_render_report(payload)
     if not _suppressed_errors:
@@ -83,6 +139,8 @@ def render_report(payload: dict[str, Any]) -> str:
 # morning and after-work searches from overwriting one another.
 core.base_params = base_params
 core.get_json = get_json
+core.summarize_segments = summarize_segments
+core.verify_booking = verify_booking
 core.render_report = render_report
 core.SearchProfile.date_pair_key = property(
     lambda self: f"{self.holiday}:{self.outbound_date}:{self.return_date}:{self.window}"
