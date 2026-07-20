@@ -46,6 +46,29 @@
 | 2026-12-23 06:50 | morning | 2027-01-03 13:50 | DL 5590 | WN 672 | nonstop / nonstop | $498 | Displayed fare | $0 |
 | 2026-12-23 18:20 | evening after work | 2027-01-03 13:50 | WN 1542, WN 4070 | WN 672 | 1 stop / nonstop | $527 | Displayed fare | $0 |
 
+<!-- booking-guidance:start -->
+## When to seriously consider booking
+
+These dates are planning reminders based on Google's latest published U.S. holiday-flight history. Your actual BOS–MCI trend and schedule flexibility can justify booking sooner.
+
+### Thanksgiving 2026
+
+- **Current status:** Baseline monitoring. Start seriously considering fares on **September 26, 2026** (68 days from this report).
+- **Serious consideration window opens:** September 26, 2026
+- **Preferred booking window:** October 13, 2026 through October 27, 2026
+- **Do not casually wait beyond:** November 1, 2026
+- **Historical basis:** Google Flights' historical Thanksgiving low-price range is 24–59 days before departure, with the lowest average around 35 days before departure.
+
+### Christmas / New Year 2026–2027
+
+- **Current status:** Baseline monitoring. Start seriously considering fares on **October 9, 2026** (81 days from this report).
+- **Serious consideration window opens:** October 9, 2026
+- **Preferred booking window:** October 20, 2026 through November 10, 2026
+- **Do not casually wait beyond:** November 20, 2026
+- **Historical basis:** Google Flights' historical Christmas low-price range is 32–73 days before departure, with the lowest average around 51 days before departure.
+
+Source: [Google's latest published holiday travel booking insights](https://blog.google/products-and-platforms/products/search/holiday-travel-trends-2025/).
+<!-- booking-guidance:end -->
 ## Scope and limits
 
 - Airports are strictly BOS and MCI.
