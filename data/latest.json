@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-07-20T08:19:59+00:00",
+  "checked_at": "2026-07-20T08:23:27+00:00",
   "route": {
     "origin": "BOS",
     "destination": "MCI"
   },
   "account": {
-    "searches_left": 184,
+    "searches_left": 142,
     "monthly_limit": 250,
     "plan_name": "Free Plan"
   },
@@ -29,7 +29,21 @@
           "AA 4529"
         ],
         "stops": 1,
-        "duration_minutes": 300
+        "duration_minutes": 300,
+        "selected_segments": [
+          {
+            "flight_number": "AA1260",
+            "departure_id": "BOS",
+            "arrival_id": "ORD",
+            "date": "2026-12-21"
+          },
+          {
+            "flight_number": "AA4529",
+            "departure_id": "ORD",
+            "arrival_id": "MCI",
+            "date": "2026-12-21"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:07 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDT1JEKgJBQTIEMTI2MCIgCgNPUkQSCjIwMjYtMTItMjEaA01DSSoCQUEyBDQ1MjlAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -43,13 +57,22 @@
           "DL 5596"
         ],
         "stops": 0,
-        "duration_minutes": 181
+        "duration_minutes": 181,
+        "selected_segments": [
+          {
+            "flight_number": "DL5596",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:18:44 UTC",
-      "booking_verified": false,
-      "verified_price": null,
-      "book_with": null,
-      "price_change_usd": null
+      "booking_verified": true,
+      "verified_price": 431.0,
+      "book_with": "American, Delta",
+      "booking_verified_at": "2026-07-20 08:22:53 UTC",
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -69,7 +92,15 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL5590",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-12-21"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:01 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
@@ -83,13 +114,21 @@
           "DL 5596"
         ],
         "stops": 0,
-        "duration_minutes": 181
+        "duration_minutes": 181,
+        "selected_segments": [
+          {
+            "flight_number": "DL5596",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:18:47 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -110,7 +149,21 @@
           "AA 4529"
         ],
         "stops": 1,
-        "duration_minutes": 300
+        "duration_minutes": 300,
+        "selected_segments": [
+          {
+            "flight_number": "AA1260",
+            "departure_id": "BOS",
+            "arrival_id": "ORD",
+            "date": "2026-12-21"
+          },
+          {
+            "flight_number": "AA4529",
+            "departure_id": "ORD",
+            "arrival_id": "MCI",
+            "date": "2026-12-21"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:10 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDT1JEKgJBQTIEMTI2MCIgCgNPUkQSCjIwMjYtMTItMjEaA01DSSoCQUEyBDQ1MjlAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -124,13 +177,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:18:50 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -150,7 +211,15 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL5590",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-12-21"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:05 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
@@ -164,13 +233,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:18:53 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -191,7 +268,21 @@
           "WN 4166"
         ],
         "stops": 1,
-        "duration_minutes": 260
+        "duration_minutes": 260,
+        "selected_segments": [
+          {
+            "flight_number": "WN4929",
+            "departure_id": "BOS",
+            "arrival_id": "STL",
+            "date": "2026-12-22"
+          },
+          {
+            "flight_number": "WN4166",
+            "departure_id": "STL",
+            "arrival_id": "MCI",
+            "date": "2026-12-22"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:17 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDU1RMKgJXTjIENDkyOSIgCgNTVEwSCjIwMjYtMTItMjIaA01DSSoCV04yBDQxNjZAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -205,13 +296,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 175
+        "duration_minutes": 175,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:18:55 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -231,7 +330,15 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL5590",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-12-22"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:11 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
@@ -245,13 +352,21 @@
           "DL 5596"
         ],
         "stops": 0,
-        "duration_minutes": 181
+        "duration_minutes": 181,
+        "selected_segments": [
+          {
+            "flight_number": "DL5596",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:18:57 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -272,7 +387,21 @@
           "WN 4166"
         ],
         "stops": 1,
-        "duration_minutes": 260
+        "duration_minutes": 260,
+        "selected_segments": [
+          {
+            "flight_number": "WN4929",
+            "departure_id": "BOS",
+            "arrival_id": "STL",
+            "date": "2026-12-22"
+          },
+          {
+            "flight_number": "WN4166",
+            "departure_id": "STL",
+            "arrival_id": "MCI",
+            "date": "2026-12-22"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:24 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDU1RMKgJXTjIENDkyOSIgCgNTVEwSCjIwMjYtMTItMjIaA01DSSoCV04yBDQxNjZAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -286,13 +415,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:00 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -312,7 +449,15 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL5590",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-12-22"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:15 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
@@ -327,13 +472,27 @@
           "DL 5745"
         ],
         "stops": 1,
-        "duration_minutes": 250
+        "duration_minutes": 250,
+        "selected_segments": [
+          {
+            "flight_number": "DL370",
+            "departure_id": "MCI",
+            "arrival_id": "LGA",
+            "date": "2027-01-03"
+          },
+          {
+            "flight_number": "DL5745",
+            "departure_id": "LGA",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:04 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -354,7 +513,21 @@
           "WN 4070"
         ],
         "stops": 1,
-        "duration_minutes": 345
+        "duration_minutes": 345,
+        "selected_segments": [
+          {
+            "flight_number": "WN1542",
+            "departure_id": "BOS",
+            "arrival_id": "DAL",
+            "date": "2026-12-23"
+          },
+          {
+            "flight_number": "WN4070",
+            "departure_id": "DAL",
+            "arrival_id": "MCI",
+            "date": "2026-12-23"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:40 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDREFMKgJXTjIEMTU0MiIgCgNEQUwSCjIwMjYtMTItMjMaA01DSSoCV04yBDQwNzBAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -368,13 +541,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 175
+        "duration_minutes": 175,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:07 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -394,7 +575,15 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL5590",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-12-23"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:26 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
@@ -408,13 +597,21 @@
           "DL 5596"
         ],
         "stops": 0,
-        "duration_minutes": 181
+        "duration_minutes": 181,
+        "selected_segments": [
+          {
+            "flight_number": "DL5596",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:11 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -435,7 +632,21 @@
           "WN 4070"
         ],
         "stops": 1,
-        "duration_minutes": 345
+        "duration_minutes": 345,
+        "selected_segments": [
+          {
+            "flight_number": "WN1542",
+            "departure_id": "BOS",
+            "arrival_id": "DAL",
+            "date": "2026-12-23"
+          },
+          {
+            "flight_number": "WN4070",
+            "departure_id": "DAL",
+            "arrival_id": "MCI",
+            "date": "2026-12-23"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:42 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDREFMKgJXTjIEMTU0MiIgCgNEQUwSCjIwMjYtMTItMjMaA01DSSoCV04yBDQwNzBAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -449,13 +660,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:12 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "christmas",
@@ -475,7 +694,15 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL5590",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-12-23"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:29 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
@@ -489,13 +716,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 180
+        "duration_minutes": 180,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:20 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -516,7 +751,21 @@
           "WN 634"
         ],
         "stops": 1,
-        "duration_minutes": 275
+        "duration_minutes": 275,
+        "selected_segments": [
+          {
+            "flight_number": "WN791",
+            "departure_id": "BOS",
+            "arrival_id": "BNA",
+            "date": "2026-11-24"
+          },
+          {
+            "flight_number": "WN634",
+            "departure_id": "BNA",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:40 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpkEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDQk5BKgJXTjIDNzkxIh8KA0JOQRIKMjAyNi0xMS0yNBoDTUNJKgJXTjIDNjM0QBJIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -530,13 +779,22 @@
           "WN 3445"
         ],
         "stops": 0,
-        "duration_minutes": 175
+        "duration_minutes": 175,
+        "selected_segments": [
+          {
+            "flight_number": "WN3445",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2026-11-27"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:23 UTC",
-      "booking_verified": false,
-      "verified_price": null,
-      "book_with": null,
-      "price_change_usd": null
+      "booking_verified": true,
+      "verified_price": 473.0,
+      "book_with": "Southwest",
+      "booking_verified_at": "2026-07-20 08:23:09 UTC",
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -556,7 +814,15 @@
           "DL 675"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL675",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:30 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -571,13 +837,27 @@
           "DL 2595"
         ],
         "stops": 1,
-        "duration_minutes": 277
+        "duration_minutes": 277,
+        "selected_segments": [
+          {
+            "flight_number": "DL2471",
+            "departure_id": "MCI",
+            "arrival_id": "ATL",
+            "date": "2026-11-27"
+          },
+          {
+            "flight_number": "DL2595",
+            "departure_id": "ATL",
+            "arrival_id": "BOS",
+            "date": "2026-11-27"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:26 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -598,7 +878,21 @@
           "WN 634"
         ],
         "stops": 1,
-        "duration_minutes": 275
+        "duration_minutes": 275,
+        "selected_segments": [
+          {
+            "flight_number": "WN791",
+            "departure_id": "BOS",
+            "arrival_id": "BNA",
+            "date": "2026-11-24"
+          },
+          {
+            "flight_number": "WN634",
+            "departure_id": "BNA",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:42 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpkEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDQk5BKgJXTjIDNzkxIh8KA0JOQRIKMjAyNi0xMS0yNBoDTUNJKgJXTjIDNjM0QBJIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -612,13 +906,21 @@
           "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 175
+        "duration_minutes": 175,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2026-11-28"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:28 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -638,7 +940,15 @@
           "DL 675"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL675",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:35 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -653,13 +963,27 @@
           "DL 2987"
         ],
         "stops": 1,
-        "duration_minutes": 277
+        "duration_minutes": 277,
+        "selected_segments": [
+          {
+            "flight_number": "DL1443",
+            "departure_id": "MCI",
+            "arrival_id": "ATL",
+            "date": "2026-11-28"
+          },
+          {
+            "flight_number": "DL2987",
+            "departure_id": "ATL",
+            "arrival_id": "BOS",
+            "date": "2026-11-28"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:35 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -680,7 +1004,21 @@
           "WN 634"
         ],
         "stops": 1,
-        "duration_minutes": 275
+        "duration_minutes": 275,
+        "selected_segments": [
+          {
+            "flight_number": "WN791",
+            "departure_id": "BOS",
+            "arrival_id": "BNA",
+            "date": "2026-11-24"
+          },
+          {
+            "flight_number": "WN634",
+            "departure_id": "BNA",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:49 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpkEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDQk5BKgJXTjIDNzkxIh8KA0JOQRIKMjAyNi0xMS0yNBoDTUNJKgJXTjIDNjM0QBJIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI5agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -695,13 +1033,27 @@
           "WN 2752"
         ],
         "stops": 1,
-        "duration_minutes": 230
+        "duration_minutes": 230,
+        "selected_segments": [
+          {
+            "flight_number": "WN2656",
+            "departure_id": "MCI",
+            "arrival_id": "BWI",
+            "date": "2026-11-29"
+          },
+          {
+            "flight_number": "WN2752",
+            "departure_id": "BWI",
+            "arrival_id": "BOS",
+            "date": "2026-11-29"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:38 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -722,7 +1074,21 @@
           "WN 1426"
         ],
         "stops": 1,
-        "duration_minutes": 275
+        "duration_minutes": 275,
+        "selected_segments": [
+          {
+            "flight_number": "WN1426",
+            "departure_id": "BOS",
+            "arrival_id": "BWI",
+            "date": "2026-11-24"
+          },
+          {
+            "flight_number": "WN1426",
+            "departure_id": "BWI",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:37 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTExLTI0IiAKA0JPUxIKMjAyNi0xMS0yNBoDQldJKgJXTjIEMTQyNiIgCgNCV0kSCjIwMjYtMTEtMjQaA01DSSoCV04yBDE0MjZAAEgLagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjYtMTEtMjlqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -737,13 +1103,27 @@
           "WN 2752"
         ],
         "stops": 1,
-        "duration_minutes": 230
+        "duration_minutes": 230,
+        "selected_segments": [
+          {
+            "flight_number": "WN2656",
+            "departure_id": "MCI",
+            "arrival_id": "BWI",
+            "date": "2026-11-29"
+          },
+          {
+            "flight_number": "WN2752",
+            "departure_id": "BWI",
+            "arrival_id": "BOS",
+            "date": "2026-11-29"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:40 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -763,7 +1143,15 @@
           "DL 675"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL675",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-11-25"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:56 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -778,13 +1166,27 @@
           "DL 2595"
         ],
         "stops": 1,
-        "duration_minutes": 277
+        "duration_minutes": 277,
+        "selected_segments": [
+          {
+            "flight_number": "DL2471",
+            "departure_id": "MCI",
+            "arrival_id": "ATL",
+            "date": "2026-11-27"
+          },
+          {
+            "flight_number": "DL2595",
+            "departure_id": "ATL",
+            "arrival_id": "BOS",
+            "date": "2026-11-27"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:45 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -804,7 +1206,15 @@
           "DL 675"
         ],
         "stops": 0,
-        "duration_minutes": 222
+        "duration_minutes": 222,
+        "selected_segments": [
+          {
+            "flight_number": "DL675",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-11-25"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:17:58 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
@@ -819,13 +1229,27 @@
           "DL 2987"
         ],
         "stops": 1,
-        "duration_minutes": 277
+        "duration_minutes": 277,
+        "selected_segments": [
+          {
+            "flight_number": "DL1443",
+            "departure_id": "MCI",
+            "arrival_id": "ATL",
+            "date": "2026-11-28"
+          },
+          {
+            "flight_number": "DL2987",
+            "departure_id": "ATL",
+            "arrival_id": "BOS",
+            "date": "2026-11-28"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:48 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -846,7 +1270,21 @@
           "WN 1426"
         ],
         "stops": 1,
-        "duration_minutes": 275
+        "duration_minutes": 275,
+        "selected_segments": [
+          {
+            "flight_number": "WN1426",
+            "departure_id": "BOS",
+            "arrival_id": "BWI",
+            "date": "2026-11-25"
+          },
+          {
+            "flight_number": "WN1426",
+            "departure_id": "BWI",
+            "arrival_id": "MCI",
+            "date": "2026-11-25"
+          }
+        ]
       },
       "search_created_at": "2026-07-20 08:18:00 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTExLTI1IiAKA0JPUxIKMjAyNi0xMS0yNRoDQldJKgJXTjIEMTQyNiIgCgNCV0kSCjIwMjYtMTEtMjUaA01DSSoCV04yBDE0MjZAAEgLagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjYtMTEtMjlqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
@@ -861,13 +1299,27 @@
           "WN 2752"
         ],
         "stops": 1,
-        "duration_minutes": 230
+        "duration_minutes": 230,
+        "selected_segments": [
+          {
+            "flight_number": "WN2656",
+            "departure_id": "MCI",
+            "arrival_id": "BWI",
+            "date": "2026-11-29"
+          },
+          {
+            "flight_number": "WN2752",
+            "departure_id": "BWI",
+            "arrival_id": "BOS",
+            "date": "2026-11-29"
+          }
+        ]
       },
       "return_search_created_at": "2026-07-20 08:19:50 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     }
   ]
 }
