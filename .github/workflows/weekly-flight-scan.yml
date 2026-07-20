@@ -52,6 +52,9 @@ jobs:
       - name: Scan live fares
         run: python scripts/monitor.py
 
+      - name: Add booking timing reminder
+        run: python scripts/add_booking_guidance.py
+
       - name: Commit updated report and history
         run: |
           git config user.name "github-actions[bot]"
