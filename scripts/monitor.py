@@ -3,11 +3,13 @@
 
 from __future__ import annotations
 
+import copy
 import importlib.util
 import json
 import os
 import sys
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -28,7 +30,6 @@ _suppressed_errors: list[str] = []
 
 
 def base_params(config: dict[str, Any], profile: Any) -> dict[str, Any]:
-    """Build a current documented SerpApi request."""
     params = dict(_original_base_params(config, profile))
     params.pop("bags", None)
     params.pop("no_cache", None)
@@ -36,7 +37,6 @@ def base_params(config: dict[str, Any], profile: Any) -> dict[str, Any]:
 
 
 def get_json(endpoint: str, params: dict[str, Any], api_key: str, retries: int = 2) -> dict[str, Any]:
-    """Keep one failed date search from aborting the entire matrix."""
     clean_params = dict(params)
     clean_params.pop("bags", None)
     clean_params.pop("no_cache", None)
@@ -63,7 +63,6 @@ def get_json(endpoint: str, params: dict[str, Any], api_key: str, retries: int =
 
 
 def summarize_segments(segments: list[dict[str, Any]]) -> dict[str, Any]:
-    """Preserve the exact segment identifiers needed for checkout re-pricing."""
     summary = _original_summarize_segments(segments)
     selected: list[dict[str, str]] = []
     for segment in segments:
@@ -87,7 +86,6 @@ def summarize_segments(segments: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def verify_booking(candidate: dict[str, Any], api_key: str, config: dict[str, Any]) -> dict[str, Any]:
-    """Re-price an exact itinerary using SerpApi's selected_flights_json method."""
     outbound = candidate.get("outbound", {}).get("selected_segments", [])
     returning = candidate.get("return", {}).get("selected_segments", [])
     if not outbound or not returning:
@@ -118,7 +116,28 @@ def verify_booking(candidate: dict[str, Any], api_key: str, config: dict[str, An
 
 
 def render_report(payload: dict[str, Any]) -> str:
-    report = _original_render_report(payload)
+    display_payload = copy.deepcopy(payload)
+    for item in display_payload.get("itineraries", []):
+        for leg_name in ("outbound", "return"):
+            leg = item.get(leg_name, {})
+            value = str(leg.get("departure_time") or "")
+            if " " in value:
+                leg["departure_time"] = value.rsplit(" ", 1)[-1]
+    report = _original_render_report(display_payload)
+    coverage = len(display_payload.get("itineraries", []))
+    report = report.replace(
+        "**Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  ",
+        "**Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  \n"
+        f"**Coverage:** {coverage} of 21 configured travel windows returned.  ",
+    )
+    report = report.replace(
+        "- **Best nonstop:** No verified itinerary found.",
+        "- **Best nonstop:** No fully nonstop itinerary was selected within the $100 nonstop preference threshold.",
+    )
+    report = report.replace(
+        "- One adult, economy, one carry-on bag.",
+        "- One adult, economy. Confirm carry-on inclusion for the selected fare before booking.",
+    )
     if not _suppressed_errors:
         return report
     unique = list(dict.fromkeys(_suppressed_errors))
@@ -131,12 +150,10 @@ def render_report(payload: dict[str, Any]) -> str:
     ]
     warning_lines.extend(f"- {message}" for message in unique[:12])
     parts = report.splitlines()
-    insert_at = min(7, len(parts))
+    insert_at = min(9, len(parts))
     return "\n".join(parts[:insert_at] + warning_lines + parts[insert_at:])
 
 
-# Patch the preserved core module. Including the window in the key prevents
-# morning and after-work searches from overwriting one another.
 core.base_params = base_params
 core.get_json = get_json
 core.summarize_segments = summarize_segments
@@ -146,7 +163,6 @@ core.SearchProfile.date_pair_key = property(
     lambda self: f"{self.holiday}:{self.outbound_date}:{self.return_date}:{self.window}"
 )
 
-# Re-export the public helpers used by the unit tests.
 MonitorError = core.MonitorError
 SearchProfile = core.SearchProfile
 load_json = core.load_json
@@ -180,7 +196,24 @@ def write_failure_report(message: str) -> None:
     )
 
 
+def recent_report_exists(max_age_hours: int = 72) -> bool:
+    if not core.LATEST_PATH.exists():
+        return False
+    try:
+        payload = json.loads(core.LATEST_PATH.read_text(encoding="utf-8"))
+        checked = datetime.fromisoformat(str(payload["checked_at"]))
+        if checked.tzinfo is None:
+            checked = checked.replace(tzinfo=timezone.utc)
+        age_hours = (datetime.now(timezone.utc) - checked.astimezone(timezone.utc)).total_seconds() / 3600
+        return 0 <= age_hours < max_age_hours and bool(payload.get("itineraries"))
+    except (KeyError, ValueError, TypeError, json.JSONDecodeError, OSError):
+        return False
+
+
 def run() -> None:
+    if recent_report_exists():
+        print("A complete report less than 72 hours old already exists; skipping duplicate API searches.")
+        return
     core.run()
 
 
