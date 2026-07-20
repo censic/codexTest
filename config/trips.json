@@ -1,0 +1,35 @@
+{
+  "origin": "BOS",
+  "destination": "MCI",
+  "currency": "USD",
+  "locale": "en",
+  "country": "us",
+  "passengers": 1,
+  "carry_on_bags": 1,
+  "connection_savings_threshold_usd": 100,
+  "booking_verifications_per_run": 4,
+  "minimum_searches_required": 33,
+  "holidays": {
+    "thanksgiving": {
+      "display_name": "Thanksgiving 2026",
+      "outbounds": [
+        {"date": "2026-11-24", "window": "morning", "times": "0,11", "work_safe": false},
+        {"date": "2026-11-24", "window": "evening after work", "times": "18,23", "work_safe": true},
+        {"date": "2026-11-25", "window": "morning", "times": "0,11", "work_safe": false}
+      ],
+      "returns": ["2026-11-27", "2026-11-28", "2026-11-29"]
+    },
+    "christmas": {
+      "display_name": "Christmas / New Year 2026–2027",
+      "outbounds": [
+        {"date": "2026-12-21", "window": "morning", "times": "0,11", "work_safe": false},
+        {"date": "2026-12-21", "window": "evening after work", "times": "18,23", "work_safe": true},
+        {"date": "2026-12-22", "window": "morning", "times": "0,11", "work_safe": false},
+        {"date": "2026-12-22", "window": "evening after work", "times": "18,23", "work_safe": true},
+        {"date": "2026-12-23", "window": "morning", "times": "0,11", "work_safe": false},
+        {"date": "2026-12-23", "window": "evening after work", "times": "18,23", "work_safe": true}
+      ],
+      "returns": ["2027-01-02", "2027-01-03"]
+    }
+  }
+}
