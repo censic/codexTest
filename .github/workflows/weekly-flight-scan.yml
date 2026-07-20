@@ -2,6 +2,9 @@ name: Weekly holiday flight scan
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/flight-scan-trigger"
   schedule:
     # Tuesdays at 11:17 UTC: 7:17 a.m. EDT / 6:17 a.m. EST.
     # ChatGPT reads the committed report later Tuesday morning.
