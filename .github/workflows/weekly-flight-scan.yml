@@ -33,6 +33,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate SerpApi secret
+        shell: bash
+        run: |
+          if [[ -z "$SERPAPI_API_KEY" ]]; then
+            echo "::error::Repository secret SERPAPI_API_KEY is missing. Add it under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          if [[ ! "$SERPAPI_API_KEY" =~ ^[0-9a-fA-F]{64}$ ]]; then
+            echo "::error::SERPAPI_API_KEY is present but is not in the expected 64-character hexadecimal format."
+            exit 1
+          fi
+          echo "SERPAPI_API_KEY is present and has the expected format."
+
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
