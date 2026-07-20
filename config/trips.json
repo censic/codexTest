@@ -7,8 +7,8 @@
   "passengers": 1,
   "carry_on_bags": 1,
   "connection_savings_threshold_usd": 100,
-  "booking_verifications_per_run": 4,
-  "minimum_searches_required": 33,
+  "booking_verifications_per_run": 2,
+  "minimum_searches_required": 44,
   "holidays": {
     "thanksgiving": {
       "display_name": "Thanksgiving 2026",
