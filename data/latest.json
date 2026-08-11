@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-08-04T13:14:40+00:00",
+  "checked_at": "2026-08-11T12:03:00+00:00",
   "route": {
     "origin": "BOS",
     "destination": "MCI"
   },
   "account": {
-    "searches_left": 96,
+    "searches_left": 52,
     "monthly_limit": 250,
     "plan_name": "Free Plan"
   },
@@ -17,36 +17,36 @@
       "return_date": "2027-01-02",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 451.0,
+      "google_flights_display_price": 475.0,
       "outbound": {
-        "departure_time": "2026-12-21 18:00",
-        "arrival_time": "2026-12-22 00:18",
+        "departure_time": "2026-12-21 20:13",
+        "arrival_time": "2026-12-22 08:37",
         "airlines": [
           "American"
         ],
         "flight_numbers": [
-          "AA 1260",
-          "AA 4529"
+          "AA 4572",
+          "AA 4181"
         ],
         "stops": 1,
-        "duration_minutes": 300,
+        "duration_minutes": 309,
         "selected_segments": [
           {
-            "flight_number": "AA1260",
+            "flight_number": "AA4572",
             "departure_id": "BOS",
             "arrival_id": "ORD",
             "date": "2026-12-21"
           },
           {
-            "flight_number": "AA4529",
+            "flight_number": "AA4181",
             "departure_id": "ORD",
             "arrival_id": "MCI",
-            "date": "2026-12-21"
+            "date": "2026-12-22"
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:41 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDT1JEKgJBQTIEMTI2MCIgCgNPUkQSCjIwMjYtMTItMjEaA01DSSoCQUEyBDQ1MjlAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
+      "search_created_at": "2026-08-11 12:01:03 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDT1JEKgJBQTIENDU3MiIgCgNPUkQSCjIwMjYtMTItMjIaA01DSSoCQUEyBDQxODFAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-02 17:11",
         "arrival_time": "2027-01-03 00:55",
@@ -74,12 +74,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:06 UTC",
-      "booking_verified": true,
-      "verified_price": 451.0,
-      "book_with": "American, United",
-      "booking_verified_at": "2026-08-04 13:14:15 UTC",
-      "price_change_usd": 21.0
+      "return_search_created_at": "2026-08-11 12:01:29 UTC",
+      "booking_verified": false,
+      "verified_price": null,
+      "book_with": null,
+      "price_change_usd": null
     },
     {
       "holiday": "christmas",
@@ -88,7 +87,7 @@
       "return_date": "2027-01-02",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 451.0,
+      "google_flights_display_price": 494.0,
       "outbound": {
         "departure_time": "2026-12-21 06:50",
         "arrival_time": "2026-12-21 09:32",
@@ -109,7 +108,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:37 UTC",
+      "search_created_at": "2026-08-11 12:00:58 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-02 12:45",
@@ -131,11 +130,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:09 UTC",
+      "return_search_created_at": "2026-08-11 12:01:31 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 43.0
     },
     {
       "holiday": "christmas",
@@ -144,36 +143,36 @@
       "return_date": "2027-01-03",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 500.0,
+      "google_flights_display_price": 489.0,
       "outbound": {
-        "departure_time": "2026-12-21 18:00",
-        "arrival_time": "2026-12-22 00:18",
+        "departure_time": "2026-12-21 20:13",
+        "arrival_time": "2026-12-22 08:37",
         "airlines": [
           "American"
         ],
         "flight_numbers": [
-          "AA 1260",
-          "AA 4529"
+          "AA 4572",
+          "AA 4181"
         ],
         "stops": 1,
-        "duration_minutes": 300,
+        "duration_minutes": 309,
         "selected_segments": [
           {
-            "flight_number": "AA1260",
+            "flight_number": "AA4572",
             "departure_id": "BOS",
             "arrival_id": "ORD",
             "date": "2026-12-21"
           },
           {
-            "flight_number": "AA4529",
+            "flight_number": "AA4181",
             "departure_id": "ORD",
             "arrival_id": "MCI",
-            "date": "2026-12-21"
+            "date": "2026-12-22"
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:43 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDT1JEKgJBQTIEMTI2MCIgCgNPUkQSCjIwMjYtMTItMjEaA01DSSoCQUEyBDQ1MjlAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
+      "search_created_at": "2026-08-11 12:01:05 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDT1JEKgJBQTIENDU3MiIgCgNPUkQSCjIwMjYtMTItMjIaA01DSSoCQUEyBDQxODFAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-03 06:00",
         "arrival_time": "2027-01-03 12:15",
@@ -201,7 +200,7 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:12 UTC",
+      "return_search_created_at": "2026-08-11 12:01:34 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -214,7 +213,7 @@
       "return_date": "2027-01-03",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 465.0,
+      "google_flights_display_price": 508.0,
       "outbound": {
         "departure_time": "2026-12-21 06:50",
         "arrival_time": "2026-12-21 09:32",
@@ -235,7 +234,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:39 UTC",
+      "search_created_at": "2026-08-11 12:01:01 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIxIiAKA0JPUxIKMjAyNi0xMi0yMRoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-03 13:50",
@@ -257,11 +256,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:14 UTC",
+      "return_search_created_at": "2026-08-11 12:01:37 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 43.0
     },
     {
       "holiday": "christmas",
@@ -270,7 +269,7 @@
       "return_date": "2027-01-02",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 460.0,
+      "google_flights_display_price": 503.0,
       "outbound": {
         "departure_time": "2026-12-22 18:35",
         "arrival_time": "2026-12-22 23:10",
@@ -298,7 +297,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:46 UTC",
+      "search_created_at": "2026-08-11 12:01:10 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDTURXKgJXTjIEMjc1OCIgCgNNRFcSCjIwMjYtMTItMjIaA01DSSoCV04yBDE4NTZAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-02 12:45",
@@ -320,11 +319,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:17 UTC",
+      "return_search_created_at": "2026-08-11 12:01:42 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 43.0
     },
     {
       "holiday": "christmas",
@@ -354,7 +353,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:44 UTC",
+      "search_created_at": "2026-08-11 12:01:07 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-02 12:45",
@@ -376,7 +375,7 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:20 UTC",
+      "return_search_created_at": "2026-08-11 12:01:45 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -389,7 +388,7 @@
       "return_date": "2027-01-03",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 474.0,
+      "google_flights_display_price": 517.0,
       "outbound": {
         "departure_time": "2026-12-22 18:35",
         "arrival_time": "2026-12-22 23:10",
@@ -417,7 +416,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:48 UTC",
+      "search_created_at": "2026-08-11 12:01:13 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDTURXKgJXTjIEMjc1OCIgCgNNRFcSCjIwMjYtMTItMjIaA01DSSoCV04yBDE4NTZAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-03 13:50",
@@ -439,11 +438,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:22 UTC",
+      "return_search_created_at": "2026-08-11 12:01:52 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 43.0
     },
     {
       "holiday": "christmas",
@@ -452,7 +451,7 @@
       "return_date": "2027-01-03",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 557.0,
+      "google_flights_display_price": 508.0,
       "outbound": {
         "departure_time": "2026-12-22 06:50",
         "arrival_time": "2026-12-22 09:32",
@@ -473,11 +472,116 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:46 UTC",
+      "search_created_at": "2026-08-11 12:01:08 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIyIiAKA0JPUxIKMjAyNi0xMi0yMhoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2027-01-03 10:10",
-        "arrival_time": "2027-01-03 14:09",
+        "departure_time": "2027-01-03 13:50",
+        "arrival_time": "2027-01-03 17:50",
+        "airlines": [
+          "Southwest"
+        ],
+        "flight_numbers": [
+          "WN 672"
+        ],
+        "stops": 0,
+        "duration_minutes": 180,
+        "selected_segments": [
+          {
+            "flight_number": "WN672",
+            "departure_id": "MCI",
+            "arrival_id": "BOS",
+            "date": "2027-01-03"
+          }
+        ]
+      },
+      "return_search_created_at": "2026-08-11 12:01:55 UTC",
+      "booking_verified": false,
+      "verified_price": null,
+      "book_with": null,
+      "price_change_usd": null
+    },
+    {
+      "holiday": "christmas",
+      "holiday_name": "Christmas / New Year 2026–2027",
+      "outbound_date": "2026-12-23",
+      "return_date": "2027-01-02",
+      "outbound_window": "evening after work",
+      "work_safe": true,
+      "google_flights_display_price": 413.0,
+      "outbound": {
+        "departure_time": "2026-12-23 20:30",
+        "arrival_time": "2026-12-24 16:06",
+        "airlines": [
+          "United"
+        ],
+        "flight_numbers": [
+          "UA 2763",
+          "UA 586"
+        ],
+        "stops": 1,
+        "duration_minutes": 391,
+        "selected_segments": [
+          {
+            "flight_number": "UA2763",
+            "departure_id": "BOS",
+            "arrival_id": "DEN",
+            "date": "2026-12-23"
+          },
+          {
+            "flight_number": "UA586",
+            "departure_id": "DEN",
+            "arrival_id": "MCI",
+            "date": "2026-12-24"
+          }
+        ]
+      },
+      "search_created_at": "2026-08-11 12:01:20 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhplEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDREVOKgJVQTIEMjc2MyIfCgNERU4SCjIwMjYtMTItMjQaA01DSSoCVUEyAzU4NkASSBdqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
+      "return": {
+        "departure_time": "2027-01-02 17:11",
+        "arrival_time": "2027-01-03 00:55",
+        "airlines": [
+          "United"
+        ],
+        "flight_numbers": [
+          "UA 5853",
+          "UA 1707"
+        ],
+        "stops": 1,
+        "duration_minutes": 263,
+        "selected_segments": [
+          {
+            "flight_number": "UA5853",
+            "departure_id": "MCI",
+            "arrival_id": "ORD",
+            "date": "2027-01-02"
+          },
+          {
+            "flight_number": "UA1707",
+            "departure_id": "ORD",
+            "arrival_id": "BOS",
+            "date": "2027-01-02"
+          }
+        ]
+      },
+      "return_search_created_at": "2026-08-11 12:02:03 UTC",
+      "booking_verified": true,
+      "verified_price": 413.0,
+      "book_with": "United",
+      "booking_verified_at": "2026-08-11 12:02:39 UTC",
+      "price_change_usd": null
+    },
+    {
+      "holiday": "christmas",
+      "holiday_name": "Christmas / New Year 2026–2027",
+      "outbound_date": "2026-12-23",
+      "return_date": "2027-01-02",
+      "outbound_window": "morning",
+      "work_safe": false,
+      "google_flights_display_price": 616.0,
+      "outbound": {
+        "departure_time": "2026-12-23 06:50",
+        "arrival_time": "2026-12-23 09:32",
         "airlines": [
           "Delta"
         ],
@@ -485,59 +589,18 @@
           "DL 5590"
         ],
         "stops": 0,
-        "duration_minutes": 179,
+        "duration_minutes": 222,
         "selected_segments": [
           {
             "flight_number": "DL5590",
-            "departure_id": "MCI",
-            "arrival_id": "BOS",
-            "date": "2027-01-03"
-          }
-        ]
-      },
-      "return_search_created_at": "2026-08-04 13:13:25 UTC",
-      "booking_verified": false,
-      "verified_price": null,
-      "book_with": null,
-      "price_change_usd": null
-    },
-    {
-      "holiday": "christmas",
-      "holiday_name": "Christmas / New Year 2026–2027",
-      "outbound_date": "2026-12-23",
-      "return_date": "2027-01-02",
-      "outbound_window": "evening after work",
-      "work_safe": true,
-      "google_flights_display_price": 460.0,
-      "outbound": {
-        "departure_time": "2026-12-23 18:50",
-        "arrival_time": "2026-12-23 22:55",
-        "airlines": [
-          "Southwest"
-        ],
-        "flight_numbers": [
-          "WN 4929",
-          "WN 4166"
-        ],
-        "stops": 1,
-        "duration_minutes": 260,
-        "selected_segments": [
-          {
-            "flight_number": "WN4929",
             "departure_id": "BOS",
-            "arrival_id": "STL",
-            "date": "2026-12-23"
-          },
-          {
-            "flight_number": "WN4166",
-            "departure_id": "STL",
             "arrival_id": "MCI",
             "date": "2026-12-23"
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:13:01 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDU1RMKgJXTjIENDkyOSIgCgNTVEwSCjIwMjYtMTItMjMaA01DSSoCV04yBDQxNjZAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
+      "search_created_at": "2026-08-11 12:01:16 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wMmoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-02 12:45",
         "arrival_time": "2027-01-02 16:40",
@@ -558,70 +621,7 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:28 UTC",
-      "booking_verified": false,
-      "verified_price": null,
-      "book_with": null,
-      "price_change_usd": null
-    },
-    {
-      "holiday": "christmas",
-      "holiday_name": "Christmas / New Year 2026–2027",
-      "outbound_date": "2026-12-23",
-      "return_date": "2027-01-02",
-      "outbound_window": "morning",
-      "work_safe": false,
-      "google_flights_display_price": 456.0,
-      "outbound": {
-        "departure_time": "2026-12-23 06:30",
-        "arrival_time": "2026-12-23 10:45",
-        "airlines": [
-          "Southwest"
-        ],
-        "flight_numbers": [
-          "WN 1426",
-          "WN 1426"
-        ],
-        "stops": 1,
-        "duration_minutes": 275,
-        "selected_segments": [
-          {
-            "flight_number": "WN1426",
-            "departure_id": "BOS",
-            "arrival_id": "BWI",
-            "date": "2026-12-23"
-          },
-          {
-            "flight_number": "WN1426",
-            "departure_id": "BWI",
-            "arrival_id": "MCI",
-            "date": "2026-12-23"
-          }
-        ]
-      },
-      "search_created_at": "2026-08-04 13:12:51 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDQldJKgJXTjIEMTQyNiIgCgNCV0kSCjIwMjYtMTItMjMaA01DSSoCV04yBDE0MjZAAEgLagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDJqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
-      "return": {
-        "departure_time": "2027-01-02 12:45",
-        "arrival_time": "2027-01-02 16:40",
-        "airlines": [
-          "Southwest"
-        ],
-        "flight_numbers": [
-          "WN 672"
-        ],
-        "stops": 0,
-        "duration_minutes": 175,
-        "selected_segments": [
-          {
-            "flight_number": "WN672",
-            "departure_id": "MCI",
-            "arrival_id": "BOS",
-            "date": "2027-01-02"
-          }
-        ]
-      },
-      "return_search_created_at": "2026-08-04 13:13:31 UTC",
+      "return_search_created_at": "2026-08-11 12:02:06 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -634,57 +634,64 @@
       "return_date": "2027-01-03",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 474.0,
+      "google_flights_display_price": 427.0,
       "outbound": {
-        "departure_time": "2026-12-23 18:50",
-        "arrival_time": "2026-12-23 22:55",
+        "departure_time": "2026-12-23 20:30",
+        "arrival_time": "2026-12-24 16:06",
         "airlines": [
-          "Southwest"
+          "United"
         ],
         "flight_numbers": [
-          "WN 4929",
-          "WN 4166"
+          "UA 2763",
+          "UA 586"
         ],
         "stops": 1,
-        "duration_minutes": 260,
+        "duration_minutes": 391,
         "selected_segments": [
           {
-            "flight_number": "WN4929",
+            "flight_number": "UA2763",
             "departure_id": "BOS",
-            "arrival_id": "STL",
+            "arrival_id": "DEN",
             "date": "2026-12-23"
           },
           {
-            "flight_number": "WN4166",
-            "departure_id": "STL",
+            "flight_number": "UA586",
+            "departure_id": "DEN",
             "arrival_id": "MCI",
-            "date": "2026-12-23"
+            "date": "2026-12-24"
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:13:04 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDU1RMKgJXTjIENDkyOSIgCgNTVEwSCjIwMjYtMTItMjMaA01DSSoCV04yBDQxNjZAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
+      "search_created_at": "2026-08-11 12:01:27 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhplEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDREVOKgJVQTIEMjc2MyIfCgNERU4SCjIwMjYtMTItMjQaA01DSSoCVUEyAzU4NkASSBdqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2027-01-03 13:50",
-        "arrival_time": "2027-01-03 17:50",
+        "departure_time": "2027-01-03 06:00",
+        "arrival_time": "2027-01-03 12:15",
         "airlines": [
-          "Southwest"
+          "United"
         ],
         "flight_numbers": [
-          "WN 672"
+          "UA 3654",
+          "UA 1669"
         ],
-        "stops": 0,
-        "duration_minutes": 180,
+        "stops": 1,
+        "duration_minutes": 255,
         "selected_segments": [
           {
-            "flight_number": "WN672",
+            "flight_number": "UA3654",
             "departure_id": "MCI",
+            "arrival_id": "EWR",
+            "date": "2027-01-03"
+          },
+          {
+            "flight_number": "UA1669",
+            "departure_id": "EWR",
             "arrival_id": "BOS",
             "date": "2027-01-03"
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:33 UTC",
+      "return_search_created_at": "2026-08-11 12:02:09 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -697,36 +704,29 @@
       "return_date": "2027-01-03",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 470.0,
+      "google_flights_display_price": 630.0,
       "outbound": {
-        "departure_time": "2026-12-23 06:30",
-        "arrival_time": "2026-12-23 10:45",
+        "departure_time": "2026-12-23 06:50",
+        "arrival_time": "2026-12-23 09:32",
         "airlines": [
-          "Southwest"
+          "Delta"
         ],
         "flight_numbers": [
-          "WN 1426",
-          "WN 1426"
+          "DL 5590"
         ],
-        "stops": 1,
-        "duration_minutes": 275,
+        "stops": 0,
+        "duration_minutes": 222,
         "selected_segments": [
           {
-            "flight_number": "WN1426",
+            "flight_number": "DL5590",
             "departure_id": "BOS",
-            "arrival_id": "BWI",
-            "date": "2026-12-23"
-          },
-          {
-            "flight_number": "WN1426",
-            "departure_id": "BWI",
             "arrival_id": "MCI",
             "date": "2026-12-23"
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:59 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDQldJKgJXTjIEMTQyNiIgCgNCV0kSCjIwMjYtMTItMjMaA01DSSoCV04yBDE0MjZAAEgLagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjctMDEtMDNqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
+      "search_created_at": "2026-08-11 12:01:18 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTEyLTIzIiAKA0JPUxIKMjAyNi0xMi0yMxoDTUNJKgJETDIENTU5MEAASAtqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNy0wMS0wM2oHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2027-01-03 13:50",
         "arrival_time": "2027-01-03 17:50",
@@ -747,7 +747,7 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:37 UTC",
+      "return_search_created_at": "2026-08-11 12:02:13 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -760,36 +760,99 @@
       "return_date": "2026-11-27",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 469.0,
+      "google_flights_display_price": 434.0,
       "outbound": {
-        "departure_time": "2026-11-24 20:00",
-        "arrival_time": "2026-11-25 00:35",
+        "departure_time": "2026-11-24 19:40",
+        "arrival_time": "2026-11-25 00:24",
         "airlines": [
-          "Southwest"
+          "American"
         ],
         "flight_numbers": [
-          "WN 791",
-          "WN 634"
+          "AA 2630",
+          "AA 4529"
         ],
         "stops": 1,
-        "duration_minutes": 275,
+        "duration_minutes": 307,
         "selected_segments": [
           {
-            "flight_number": "WN791",
+            "flight_number": "AA2630",
             "departure_id": "BOS",
-            "arrival_id": "BNA",
+            "arrival_id": "ORD",
             "date": "2026-11-24"
           },
           {
-            "flight_number": "WN634",
-            "departure_id": "BNA",
+            "flight_number": "AA4529",
+            "departure_id": "ORD",
             "arrival_id": "MCI",
             "date": "2026-11-24"
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:16 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpkEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDQk5BKgJXTjIDNzkxIh8KA0JOQRIKMjAyNi0xMS0yNBoDTUNJKgJXTjIDNjM0QBJIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
+      "search_created_at": "2026-08-11 12:00:47 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTExLTI0IiAKA0JPUxIKMjAyNi0xMS0yNBoDT1JEKgJBQTIEMjYzMCIgCgNPUkQSCjIwMjYtMTEtMjQaA01DSSoCQUEyBDQ1MjlAEkgXagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjYtMTEtMjdqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
+      "return": {
+        "departure_time": "2026-11-27 05:26",
+        "arrival_time": "2026-11-27 11:56",
+        "airlines": [
+          "American"
+        ],
+        "flight_numbers": [
+          "AA 4366",
+          "AA 2372"
+        ],
+        "stops": 1,
+        "duration_minutes": 255,
+        "selected_segments": [
+          {
+            "flight_number": "AA4366",
+            "departure_id": "MCI",
+            "arrival_id": "ORD",
+            "date": "2026-11-27"
+          },
+          {
+            "flight_number": "AA2372",
+            "departure_id": "ORD",
+            "arrival_id": "BOS",
+            "date": "2026-11-27"
+          }
+        ]
+      },
+      "return_search_created_at": "2026-08-11 12:02:16 UTC",
+      "booking_verified": false,
+      "verified_price": null,
+      "book_with": null,
+      "price_change_usd": null
+    },
+    {
+      "holiday": "thanksgiving",
+      "holiday_name": "Thanksgiving 2026",
+      "outbound_date": "2026-11-24",
+      "return_date": "2026-11-27",
+      "outbound_window": "morning",
+      "work_safe": false,
+      "google_flights_display_price": 430.0,
+      "outbound": {
+        "departure_time": "2026-11-24 06:15",
+        "arrival_time": "2026-11-24 09:02",
+        "airlines": [
+          "Delta"
+        ],
+        "flight_numbers": [
+          "DL 675"
+        ],
+        "stops": 0,
+        "duration_minutes": 227,
+        "selected_segments": [
+          {
+            "flight_number": "DL675",
+            "departure_id": "BOS",
+            "arrival_id": "MCI",
+            "date": "2026-11-24"
+          }
+        ]
+      },
+      "search_created_at": "2026-08-11 12:00:41 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-27 13:15",
         "arrival_time": "2026-11-27 17:10",
@@ -810,67 +873,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:41 UTC",
+      "return_search_created_at": "2026-08-11 12:02:18 UTC",
       "booking_verified": true,
-      "verified_price": 469.0,
-      "book_with": "Southwest",
-      "booking_verified_at": "2026-08-04 13:14:25 UTC",
-      "price_change_usd": 0.0
-    },
-    {
-      "holiday": "thanksgiving",
-      "holiday_name": "Thanksgiving 2026",
-      "outbound_date": "2026-11-24",
-      "return_date": "2026-11-27",
-      "outbound_window": "morning",
-      "work_safe": false,
-      "google_flights_display_price": 515.0,
-      "outbound": {
-        "departure_time": "2026-11-24 06:15",
-        "arrival_time": "2026-11-24 09:02",
-        "airlines": [
-          "Delta"
-        ],
-        "flight_numbers": [
-          "DL 675"
-        ],
-        "stops": 0,
-        "duration_minutes": 227,
-        "selected_segments": [
-          {
-            "flight_number": "DL675",
-            "departure_id": "BOS",
-            "arrival_id": "MCI",
-            "date": "2026-11-24"
-          }
-        ]
-      },
-      "search_created_at": "2026-08-04 13:12:09 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
-      "return": {
-        "departure_time": "2026-11-27 13:10",
-        "arrival_time": "2026-11-27 17:07",
-        "airlines": [
-          "Delta"
-        ],
-        "flight_numbers": [
-          "DL 675"
-        ],
-        "stops": 0,
-        "duration_minutes": 177,
-        "selected_segments": [
-          {
-            "flight_number": "DL675",
-            "departure_id": "MCI",
-            "arrival_id": "BOS",
-            "date": "2026-11-27"
-          }
-        ]
-      },
-      "return_search_created_at": "2026-08-04 13:13:45 UTC",
-      "booking_verified": false,
-      "verified_price": null,
-      "book_with": null,
+      "verified_price": 430.0,
+      "book_with": "Delta, Southwest",
+      "booking_verified_at": "2026-08-11 12:02:50 UTC",
       "price_change_usd": null
     },
     {
@@ -880,7 +887,7 @@
       "return_date": "2026-11-28",
       "outbound_window": "evening after work",
       "work_safe": true,
-      "google_flights_display_price": 518.0,
+      "google_flights_display_price": 527.0,
       "outbound": {
         "departure_time": "2026-11-24 20:00",
         "arrival_time": "2026-11-25 00:35",
@@ -908,21 +915,20 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:19 UTC",
+      "search_created_at": "2026-08-11 12:00:48 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpkEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDQk5BKgJXTjIDNzkxIh8KA0JOQRIKMjAyNi0xMS0yNBoDTUNJKgJXTjIDNjM0QBJIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-28 05:30",
-        "arrival_time": "2026-11-28 14:55",
+        "arrival_time": "2026-11-28 10:55",
         "airlines": [
           "Southwest"
         ],
         "flight_numbers": [
           "WN 2690",
-          "WN 2894",
-          "WN 4457"
+          "WN 4113"
         ],
-        "stops": 2,
-        "duration_minutes": 320,
+        "stops": 1,
+        "duration_minutes": 220,
         "selected_segments": [
           {
             "flight_number": "WN2690",
@@ -931,20 +937,14 @@
             "date": "2026-11-28"
           },
           {
-            "flight_number": "WN2894",
+            "flight_number": "WN4113",
             "departure_id": "MDW",
-            "arrival_id": "BNA",
-            "date": "2026-11-28"
-          },
-          {
-            "flight_number": "WN4457",
-            "departure_id": "BNA",
             "arrival_id": "BOS",
             "date": "2026-11-28"
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:48 UTC",
+      "return_search_created_at": "2026-08-11 12:02:20 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -957,7 +957,7 @@
       "return_date": "2026-11-28",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 533.0,
+      "google_flights_display_price": 597.0,
       "outbound": {
         "departure_time": "2026-11-24 06:15",
         "arrival_time": "2026-11-24 09:02",
@@ -978,29 +978,29 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:11 UTC",
+      "search_created_at": "2026-08-11 12:00:42 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2026-11-28 12:45",
-        "arrival_time": "2026-11-28 16:40",
+        "departure_time": "2026-11-28 19:45",
+        "arrival_time": "2026-11-28 23:43",
         "airlines": [
-          "Southwest"
+          "Delta"
         ],
         "flight_numbers": [
-          "WN 672"
+          "DL 1966"
         ],
         "stops": 0,
-        "duration_minutes": 175,
+        "duration_minutes": 178,
         "selected_segments": [
           {
-            "flight_number": "WN672",
+            "flight_number": "DL1966",
             "departure_id": "MCI",
             "arrival_id": "BOS",
             "date": "2026-11-28"
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:51 UTC",
+      "return_search_created_at": "2026-08-11 12:02:23 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -1041,7 +1041,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:23 UTC",
+      "search_created_at": "2026-08-11 12:00:50 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpkEgoyMDI2LTExLTI0Ih8KA0JPUxIKMjAyNi0xMS0yNBoDQk5BKgJXTjIDNzkxIh8KA0JOQRIKMjAyNi0xMS0yNBoDTUNJKgJXTjIDNjM0QBJIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI5agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-29 18:40",
@@ -1070,11 +1070,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:53 UTC",
+      "return_search_created_at": "2026-08-11 12:02:26 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": 57.0
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -1111,7 +1111,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:14 UTC",
+      "search_created_at": "2026-08-11 12:00:44 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTExLTI0IiAKA0JPUxIKMjAyNi0xMS0yNBoDQldJKgJXTjIEMTQyNiIgCgNCV0kSCjIwMjYtMTEtMjQaA01DSSoCV04yBDE0MjZAAEgLagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjYtMTEtMjlqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-29 18:40",
@@ -1140,11 +1140,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:56 UTC",
+      "return_search_created_at": "2026-08-11 12:02:29 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": 57.0
+      "price_change_usd": 0.0
     },
     {
       "holiday": "thanksgiving",
@@ -1153,7 +1153,7 @@
       "return_date": "2026-11-27",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 557.0,
+      "google_flights_display_price": 430.0,
       "outbound": {
         "departure_time": "2026-11-25 06:15",
         "arrival_time": "2026-11-25 09:02",
@@ -1174,29 +1174,29 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:27 UTC",
+      "search_created_at": "2026-08-11 12:00:52 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI3agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2026-11-27 13:10",
-        "arrival_time": "2026-11-27 17:07",
+        "departure_time": "2026-11-27 13:15",
+        "arrival_time": "2026-11-27 17:10",
         "airlines": [
-          "Delta"
+          "Southwest"
         ],
         "flight_numbers": [
-          "DL 675"
+          "WN 3445"
         ],
         "stops": 0,
-        "duration_minutes": 177,
+        "duration_minutes": 175,
         "selected_segments": [
           {
-            "flight_number": "DL675",
+            "flight_number": "WN3445",
             "departure_id": "MCI",
             "arrival_id": "BOS",
             "date": "2026-11-27"
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:13:58 UTC",
+      "return_search_created_at": "2026-08-11 12:02:31 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -1209,7 +1209,7 @@
       "return_date": "2026-11-28",
       "outbound_window": "morning",
       "work_safe": false,
-      "google_flights_display_price": 575.0,
+      "google_flights_display_price": 597.0,
       "outbound": {
         "departure_time": "2026-11-25 06:15",
         "arrival_time": "2026-11-25 09:02",
@@ -1230,29 +1230,29 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:33 UTC",
+      "search_created_at": "2026-08-11 12:00:55 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIC2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2026-11-28 12:45",
-        "arrival_time": "2026-11-28 16:40",
+        "departure_time": "2026-11-28 19:45",
+        "arrival_time": "2026-11-28 23:43",
         "airlines": [
-          "Southwest"
+          "Delta"
         ],
         "flight_numbers": [
-          "WN 672"
+          "DL 1966"
         ],
         "stops": 0,
-        "duration_minutes": 175,
+        "duration_minutes": 178,
         "selected_segments": [
           {
-            "flight_number": "WN672",
+            "flight_number": "DL1966",
             "departure_id": "MCI",
             "arrival_id": "BOS",
             "date": "2026-11-28"
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:14:05 UTC",
+      "return_search_created_at": "2026-08-11 12:02:34 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
@@ -1293,7 +1293,7 @@
           }
         ]
       },
-      "search_created_at": "2026-08-04 13:12:35 UTC",
+      "search_created_at": "2026-08-11 12:00:57 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpmEgoyMDI2LTExLTI1IiAKA0JPUxIKMjAyNi0xMS0yNRoDQldJKgJXTjIEMTQyNiIgCgNCV0kSCjIwMjYtMTEtMjUaA01DSSoCV04yBDE0MjZAAEgLagcIARIDQk9TcgcIARIDTUNJGh4SCjIwMjYtMTEtMjlqBwgBEgNNQ0lyBwgBEgNCT1NAAUgBcAGYAQE&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-29 18:40",
@@ -1322,11 +1322,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-08-04 13:14:13 UTC",
+      "return_search_created_at": "2026-08-11 12:02:37 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": 57.0
+      "price_change_usd": 0.0
     }
   ]
 }
