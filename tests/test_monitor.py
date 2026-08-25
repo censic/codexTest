@@ -48,9 +48,13 @@ class MonitorTests(unittest.TestCase):
         self.assertEqual(price, 512.0)
         self.assertEqual(seller, "Delta")
 
-    def test_profile_count(self):
+    def test_thanksgiving_profile_count_and_dates(self):
         config = monitor.load_json(Path(__file__).resolve().parents[1] / "config" / "trips.json")
-        self.assertEqual(len(monitor.build_profiles(config)), 21)
+        profiles = monitor.build_profiles(config)
+        self.assertEqual(len(profiles), 2)
+        self.assertEqual({profile.outbound_date for profile in profiles}, {"2026-11-25"})
+        self.assertEqual({profile.return_date for profile in profiles}, {"2026-11-28", "2026-11-29"})
+        self.assertEqual({profile.times for profile in profiles}, {"0,23"})
 
 
 if __name__ == "__main__":
