@@ -125,10 +125,11 @@ def render_report(payload: dict[str, Any]) -> str:
                 leg["departure_time"] = value.rsplit(" ", 1)[-1]
     report = _original_render_report(display_payload)
     coverage = len(display_payload.get("itineraries", []))
+    configured = len(core.build_profiles(core.load_json(core.CONFIG_PATH)))
     report = report.replace(
         "**Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  ",
         "**Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  \n"
-        f"**Coverage:** {coverage} of 21 configured travel windows returned.  ",
+        f"**Coverage:** {coverage} of {configured} configured travel windows returned.  ",
     )
     report = report.replace(
         "- **Best nonstop:** No verified itinerary found.",
