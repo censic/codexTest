@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add a date-aware holiday booking reminder to REPORT.md."""
+"""Add a date-aware Thanksgiving booking reminder to REPORT.md."""
 
 from __future__ import annotations
 
@@ -20,13 +20,6 @@ GUIDANCE = {
         "target_end": date(2026, 10, 27),
         "latest": date(2026, 11, 1),
         "basis": "Google Flights' historical Thanksgiving low-price range is 24–59 days before departure, with the lowest average around 35 days before departure.",
-    },
-    "Christmas / New Year 2026–2027": {
-        "serious_start": date(2026, 10, 9),
-        "target_start": date(2026, 10, 20),
-        "target_end": date(2026, 11, 10),
-        "latest": date(2026, 11, 20),
-        "basis": "Google Flights' historical Christmas low-price range is 32–73 days before departure, with the lowest average around 51 days before departure.",
     },
 }
 
@@ -75,7 +68,7 @@ def build_section(today: date) -> str:
         START,
         "## When to seriously consider booking",
         "",
-        "These dates are planning reminders based on Google's latest published U.S. holiday-flight history. Your actual BOS–MCI trend and schedule flexibility can justify booking sooner.",
+        "These dates are planning reminders based on Google's latest published U.S. Thanksgiving-flight history. Your actual BOS–MCI trend and schedule flexibility can justify booking sooner.",
         "",
     ]
     for title, item in GUIDANCE.items():
