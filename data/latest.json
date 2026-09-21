@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-09-15T15:36:01+00:00",
+  "checked_at": "2026-09-21T03:30:37+00:00",
   "route": {
     "origin": "BOS",
     "destination": "MCI"
   },
   "account": {
-    "searches_left": 196,
+    "searches_left": 250,
     "monthly_limit": 250,
     "plan_name": "Free Plan"
   },
@@ -17,7 +17,7 @@
       "return_date": "2026-11-28",
       "outbound_window": "any time Wednesday",
       "work_safe": false,
-      "google_flights_display_price": 582.0,
+      "google_flights_display_price": 603.0,
       "outbound": {
         "departure_time": "2026-11-25 06:15",
         "arrival_time": "2026-11-25 09:02",
@@ -38,7 +38,7 @@
           }
         ]
       },
-      "search_created_at": "2026-09-15 15:35:30 UTC",
+      "search_created_at": "2026-09-21 03:30:04 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-28 09:57",
@@ -60,12 +60,12 @@
           }
         ]
       },
-      "return_search_created_at": "2026-09-15 15:35:34 UTC",
+      "return_search_created_at": "2026-09-21 03:30:09 UTC",
       "booking_verified": true,
-      "verified_price": 582.0,
+      "verified_price": 603.0,
       "book_with": "Delta",
-      "booking_verified_at": "2026-09-15 15:35:41 UTC",
-      "price_change_usd": null
+      "booking_verified_at": "2026-09-21 03:30:18 UTC",
+      "price_change_usd": 21.0
     },
     {
       "holiday": "thanksgiving",
@@ -95,7 +95,7 @@
           }
         ]
       },
-      "search_created_at": "2026-09-15 15:35:32 UTC",
+      "search_created_at": "2026-09-21 03:30:07 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI5agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-29 19:45",
@@ -117,11 +117,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-09-15 15:35:39 UTC",
+      "return_search_created_at": "2026-09-21 03:30:16 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 0.0
     }
   ]
 }
