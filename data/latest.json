@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-09-21T03:30:37+00:00",
+  "checked_at": "2026-09-29T16:55:00+00:00",
   "route": {
     "origin": "BOS",
     "destination": "MCI"
   },
   "account": {
-    "searches_left": 250,
+    "searches_left": 245,
     "monthly_limit": 250,
     "plan_name": "Free Plan"
   },
@@ -17,55 +17,55 @@
       "return_date": "2026-11-28",
       "outbound_window": "any time Wednesday",
       "work_safe": false,
-      "google_flights_display_price": 603.0,
+      "google_flights_display_price": 596.0,
       "outbound": {
-        "departure_time": "2026-11-25 06:15",
-        "arrival_time": "2026-11-25 09:02",
+        "departure_time": "2026-11-25 15:00",
+        "arrival_time": "2026-11-25 17:40",
         "airlines": [
-          "Delta"
+          "Southwest"
         ],
         "flight_numbers": [
-          "DL 675"
+          "WN 1479"
         ],
         "stops": 0,
-        "duration_minutes": 227,
+        "duration_minutes": 220,
         "selected_segments": [
           {
-            "flight_number": "DL675",
+            "flight_number": "WN1479",
             "departure_id": "BOS",
             "arrival_id": "MCI",
             "date": "2026-11-25"
           }
         ]
       },
-      "search_created_at": "2026-09-21 03:30:04 UTC",
-      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI4agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
+      "search_created_at": "2026-09-29 16:54:37 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTExLTI1IiAKA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJXTjIEMTQ3OUAASBdqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNi0xMS0yOGoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2026-11-28 09:57",
-        "arrival_time": "2026-11-28 13:55",
+        "departure_time": "2026-11-28 12:45",
+        "arrival_time": "2026-11-28 16:40",
         "airlines": [
-          "Delta"
+          "Southwest"
         ],
         "flight_numbers": [
-          "DL 675"
+          "WN 672"
         ],
         "stops": 0,
-        "duration_minutes": 178,
+        "duration_minutes": 175,
         "selected_segments": [
           {
-            "flight_number": "DL675",
+            "flight_number": "WN672",
             "departure_id": "MCI",
             "arrival_id": "BOS",
             "date": "2026-11-28"
           }
         ]
       },
-      "return_search_created_at": "2026-09-21 03:30:09 UTC",
+      "return_search_created_at": "2026-09-29 16:54:40 UTC",
       "booking_verified": true,
-      "verified_price": 603.0,
-      "book_with": "Delta",
-      "booking_verified_at": "2026-09-21 03:30:18 UTC",
-      "price_change_usd": 21.0
+      "verified_price": 596.0,
+      "book_with": "Southwest",
+      "booking_verified_at": "2026-09-29 16:54:47 UTC",
+      "price_change_usd": null
     },
     {
       "holiday": "thanksgiving",
@@ -74,7 +74,7 @@
       "return_date": "2026-11-29",
       "outbound_window": "any time Wednesday",
       "work_safe": false,
-      "google_flights_display_price": 667.0,
+      "google_flights_display_price": 719.0,
       "outbound": {
         "departure_time": "2026-11-25 06:15",
         "arrival_time": "2026-11-25 09:02",
@@ -95,7 +95,7 @@
           }
         ]
       },
-      "search_created_at": "2026-09-21 03:30:07 UTC",
+      "search_created_at": "2026-09-29 16:54:39 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpDEgoyMDI2LTExLTI1Ih8KA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJETDIDNjc1QABIF2oHCAESA0JPU3IHCAESA01DSRoeEgoyMDI2LTExLTI5agcIARIDTUNJcgcIARIDQk9TQAFIAXABmAEB&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-29 19:45",
@@ -117,11 +117,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-09-21 03:30:16 UTC",
+      "return_search_created_at": "2026-09-29 16:54:43 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": 0.0
+      "price_change_usd": 52.0
     }
   ]
 }
