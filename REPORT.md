@@ -1,22 +1,22 @@
 # BOS–MCI Holiday Flight Monitor
 
-**Last checked:** 2026-10-06T17:16:27+00:00  
+**Last checked:** 2026-10-13T18:22:36+00:00  
 **Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  
 **Coverage:** 2 of 2 configured travel windows returned.  
-**Searches remaining when run began:** 240 of 250
+**Searches remaining when run began:** 235 of 250
 
 > Prices can change after the timestamp above. A ‘booking verified’ price came from Google Flights booking options during this run. Other prices are exact fares displayed by Google Flights at their listed search timestamp, but were not independently re-priced at checkout.
 
 ## Thanksgiving 2026
 
-- **Cheapest usable:** 2026-11-25 → 2026-11-28, $653, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
-- **Best nonstop:** 2026-11-25 → 2026-11-28, $653, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
+- **Cheapest usable:** 2026-11-25 → 2026-11-28, $565, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
+- **Best nonstop:** 2026-11-25 → 2026-11-28, $565, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
 - **Best after-work outbound:** No verified itinerary found.
 
 | Outbound | Window | Return | Outbound flight | Return flight | Stops | Price | Verification | Change |
 |---|---|---|---|---|---|---:|---|---:|
-| 2026-11-25 15:00 | any time Wednesday | 2026-11-28 12:45 | WN 1479 | WN 672 | Nonstop / Nonstop | $653 | Verified: Southwest | +$57 |
-| 2026-11-25 15:00 | any time Wednesday | 2026-11-29 19:45 | WN 1479 | DL 1966 | Nonstop / Nonstop | $707 | Displayed fare | New |
+| 2026-11-25 16:05 | any time Wednesday | 2026-11-28 09:57 | DL 1966 | DL 675 | Nonstop / Nonstop | $565 | Verified: Delta | New |
+| 2026-11-25 16:05 | any time Wednesday | 2026-11-29 13:20 | DL 1966 | WN 2368 | Nonstop / Nonstop | $748 | Displayed fare | New |
 
 ## Christmas / New Year 2026–2027
 
@@ -34,7 +34,7 @@ These dates are planning reminders based on Google's latest published U.S. Thank
 
 ### Thanksgiving 2026
 
-- **Current status:** The serious consideration window is open. The preferred booking window begins **October 13, 2026** (7 days from this report).
+- **Current status:** **Preferred booking window is open now.** Book when a strong flexible itinerary meets the route-specific price target.
 - **Serious consideration window opens:** September 26, 2026
 - **Preferred booking window:** October 13, 2026 through October 27, 2026
 - **Do not casually wait beyond:** November 1, 2026
