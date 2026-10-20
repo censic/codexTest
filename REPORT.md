@@ -1,22 +1,22 @@
 # BOS–MCI Holiday Flight Monitor
 
-**Last checked:** 2026-10-13T18:22:36+00:00  
+**Last checked:** 2026-10-20T15:40:46+00:00  
 **Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  
 **Coverage:** 2 of 2 configured travel windows returned.  
-**Searches remaining when run began:** 235 of 250
+**Searches remaining when run began:** 250 of 250
 
 > Prices can change after the timestamp above. A ‘booking verified’ price came from Google Flights booking options during this run. Other prices are exact fares displayed by Google Flights at their listed search timestamp, but were not independently re-priced at checkout.
 
 ## Thanksgiving 2026
 
-- **Cheapest usable:** 2026-11-25 → 2026-11-28, $565, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
-- **Best nonstop:** 2026-11-25 → 2026-11-28, $565, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
+- **Cheapest usable:** 2026-11-25 → 2026-11-28, $570, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
+- **Best nonstop:** 2026-11-25 → 2026-11-28, $570, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
 - **Best after-work outbound:** No verified itinerary found.
 
 | Outbound | Window | Return | Outbound flight | Return flight | Stops | Price | Verification | Change |
 |---|---|---|---|---|---|---:|---|---:|
-| 2026-11-25 16:05 | any time Wednesday | 2026-11-28 09:57 | DL 1966 | DL 675 | Nonstop / Nonstop | $565 | Verified: Delta | New |
-| 2026-11-25 16:05 | any time Wednesday | 2026-11-29 13:20 | DL 1966 | WN 2368 | Nonstop / Nonstop | $748 | Displayed fare | New |
+| 2026-11-25 16:05 | any time Wednesday | 2026-11-28 09:57 | DL 1966 | DL 675 | Nonstop / Nonstop | $570 | Verified: Delta | +$5 |
+| 2026-11-25 11:55 | any time Wednesday | 2026-11-29 19:29 | UA 1732, UA 2142 | AA 6292, AA 1515 | 1 stop / 1 stop | $648 | Displayed fare | New |
 
 ## Christmas / New Year 2026–2027
 
