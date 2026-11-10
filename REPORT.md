@@ -1,22 +1,22 @@
 # BOS–MCI Holiday Flight Monitor
 
-**Last checked:** 2026-11-03T18:29:14+00:00  
+**Last checked:** 2026-11-10T18:42:18+00:00  
 **Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  
 **Coverage:** 2 of 2 configured travel windows returned.  
-**Searches remaining when run began:** 240 of 250
+**Searches remaining when run began:** 235 of 250
 
 > Prices can change after the timestamp above. A ‘booking verified’ price came from Google Flights booking options during this run. Other prices are exact fares displayed by Google Flights at their listed search timestamp, but were not independently re-priced at checkout.
 
 ## Thanksgiving 2026
 
-- **Cheapest usable:** 2026-11-25 → 2026-11-28, $695, Nonstop outbound / 1 stop return, any time Wednesday (booking option verified).
+- **Cheapest usable:** 2026-11-25 → 2026-11-28, $838, Nonstop outbound / 1 stop return, any time Wednesday (booking option verified).
 - **Best nonstop:** No fully nonstop itinerary was selected within the $100 nonstop preference threshold.
 - **Best after-work outbound:** No verified itinerary found.
 
 | Outbound | Window | Return | Outbound flight | Return flight | Stops | Price | Verification | Change |
 |---|---|---|---|---|---|---:|---|---:|
-| 2026-11-25 06:15 | any time Wednesday | 2026-11-28 05:40 | DL 675 | DL 1204, DL 855 | Nonstop / 1 stop | $695 | Verified: Delta | New |
-| 2026-11-25 16:56 | any time Wednesday | 2026-11-29 17:41 | UA 563, UA 1504 | UA 5477, UA 1186 | 1 stop / 1 stop | $730 | Displayed fare | New |
+| 2026-11-25 15:00 | any time Wednesday | 2026-11-28 05:30 | WN 1479 | WN 2690, WN 4113 | Nonstop / 1 stop | $838 | Verified: Southwest | New |
+| 2026-11-25 15:00 | any time Wednesday | 2026-11-29 05:30 | WN 1479 | WN 2717, WN 1086 | Nonstop / 1 stop | $838 | Displayed fare | New |
 
 ## Christmas / New Year 2026–2027
 
