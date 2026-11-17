@@ -1,22 +1,22 @@
 # BOS–MCI Holiday Flight Monitor
 
-**Last checked:** 2026-11-10T18:42:18+00:00  
+**Last checked:** 2026-11-17T19:54:39+00:00  
 **Source:** SerpApi Google Flights with `deep_search=true`; booking-option verification is explicitly labeled.  
 **Coverage:** 2 of 2 configured travel windows returned.  
-**Searches remaining when run began:** 235 of 250
+**Searches remaining when run began:** 230 of 250
 
 > Prices can change after the timestamp above. A ‘booking verified’ price came from Google Flights booking options during this run. Other prices are exact fares displayed by Google Flights at their listed search timestamp, but were not independently re-priced at checkout.
 
 ## Thanksgiving 2026
 
-- **Cheapest usable:** 2026-11-25 → 2026-11-28, $838, Nonstop outbound / 1 stop return, any time Wednesday (booking option verified).
-- **Best nonstop:** No fully nonstop itinerary was selected within the $100 nonstop preference threshold.
+- **Cheapest usable:** 2026-11-25 → 2026-11-28, $899, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
+- **Best nonstop:** 2026-11-25 → 2026-11-28, $899, Nonstop outbound / Nonstop return, any time Wednesday (booking option verified).
 - **Best after-work outbound:** No verified itinerary found.
 
 | Outbound | Window | Return | Outbound flight | Return flight | Stops | Price | Verification | Change |
 |---|---|---|---|---|---|---:|---|---:|
-| 2026-11-25 15:00 | any time Wednesday | 2026-11-28 05:30 | WN 1479 | WN 2690, WN 4113 | Nonstop / 1 stop | $838 | Verified: Southwest | New |
-| 2026-11-25 15:00 | any time Wednesday | 2026-11-29 05:30 | WN 1479 | WN 2717, WN 1086 | Nonstop / 1 stop | $838 | Displayed fare | New |
+| 2026-11-25 15:00 | any time Wednesday | 2026-11-28 12:45 | WN 1479 | WN 672 | Nonstop / Nonstop | $899 | Verified: Southwest | New |
+| 2026-11-25 15:00 | any time Wednesday | 2026-11-29 05:30 | WN 1479 | WN 2717, WN 1086 | Nonstop / 1 stop | $909 | Displayed fare | +$71 |
 
 ## Christmas / New Year 2026–2027
 

@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-10T18:42:18+00:00",
+  "checked_at": "2026-11-17T19:54:39+00:00",
   "route": {
     "origin": "BOS",
     "destination": "MCI"
   },
   "account": {
-    "searches_left": 235,
+    "searches_left": 230,
     "monthly_limit": 250,
     "plan_name": "Free Plan"
   },
@@ -17,7 +17,7 @@
       "return_date": "2026-11-28",
       "outbound_window": "any time Wednesday",
       "work_safe": false,
-      "google_flights_display_price": 838.0,
+      "google_flights_display_price": 899.0,
       "outbound": {
         "departure_time": "2026-11-25 15:00",
         "arrival_time": "2026-11-25 17:40",
@@ -38,40 +38,33 @@
           }
         ]
       },
-      "search_created_at": "2026-11-10 18:41:54 UTC",
+      "search_created_at": "2026-11-17 19:54:07 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTExLTI1IiAKA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJXTjIEMTQ3OUAASBdqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNi0xMS0yOGoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
-        "departure_time": "2026-11-28 05:30",
-        "arrival_time": "2026-11-28 10:55",
+        "departure_time": "2026-11-28 12:45",
+        "arrival_time": "2026-11-28 16:40",
         "airlines": [
           "Southwest"
         ],
         "flight_numbers": [
-          "WN 2690",
-          "WN 4113"
+          "WN 672"
         ],
-        "stops": 1,
-        "duration_minutes": 220,
+        "stops": 0,
+        "duration_minutes": 175,
         "selected_segments": [
           {
-            "flight_number": "WN2690",
+            "flight_number": "WN672",
             "departure_id": "MCI",
-            "arrival_id": "MDW",
-            "date": "2026-11-28"
-          },
-          {
-            "flight_number": "WN4113",
-            "departure_id": "MDW",
             "arrival_id": "BOS",
             "date": "2026-11-28"
           }
         ]
       },
-      "return_search_created_at": "2026-11-10 18:42:00 UTC",
+      "return_search_created_at": "2026-11-17 19:54:12 UTC",
       "booking_verified": true,
-      "verified_price": 838.0,
+      "verified_price": 899.0,
       "book_with": "Southwest",
-      "booking_verified_at": "2026-11-10 18:42:08 UTC",
+      "booking_verified_at": "2026-11-17 19:54:26 UTC",
       "price_change_usd": null
     },
     {
@@ -81,7 +74,7 @@
       "return_date": "2026-11-29",
       "outbound_window": "any time Wednesday",
       "work_safe": false,
-      "google_flights_display_price": 838.0,
+      "google_flights_display_price": 909.0,
       "outbound": {
         "departure_time": "2026-11-25 15:00",
         "arrival_time": "2026-11-25 17:40",
@@ -102,7 +95,7 @@
           }
         ]
       },
-      "search_created_at": "2026-11-10 18:41:56 UTC",
+      "search_created_at": "2026-11-17 19:54:09 UTC",
       "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhpEEgoyMDI2LTExLTI1IiAKA0JPUxIKMjAyNi0xMS0yNRoDTUNJKgJXTjIEMTQ3OUAASBdqBwgBEgNCT1NyBwgBEgNNQ0kaHhIKMjAyNi0xMS0yOWoHCAESA01DSXIHCAESA0JPU0ABSAFwAZgBAQ&tfu=EgQIAhAB",
       "return": {
         "departure_time": "2026-11-29 05:30",
@@ -131,11 +124,11 @@
           }
         ]
       },
-      "return_search_created_at": "2026-11-10 18:42:03 UTC",
+      "return_search_created_at": "2026-11-17 19:54:18 UTC",
       "booking_verified": false,
       "verified_price": null,
       "book_with": null,
-      "price_change_usd": null
+      "price_change_usd": 71.0
     }
   ]
 }
